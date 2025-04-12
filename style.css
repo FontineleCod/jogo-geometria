@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+
+#app {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+#figura img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#proxima {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#proxima:hover {
+  background-color: #45a049;
+}
+
+#opcoes button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#opcoes button:hover {
+  background-color: #007bb5;
+}
+
+#resultado {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
